@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Core:jar" />
+      <artifact name="Kits:jar" />
+      <artifact name="Warps:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f91ead6a-72d1-49f0-8f5a-93305846c611" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZB44rKJQLdEt8I4VLgbsCRZiSX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bin/artifacts/Core.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Repos\Games\MineCon2016\SqliteFramework\src\main\java\com\nelsontron\sqlite" />
+      <recent name="D:\Repos\Games\MineCon2016\Warps\src\main\resources" />
+      <recent name="D:\Repos\Games\MineCon2016\Warps\src\main\java\com\nelsontron\warps" />
+      <recent name="D:\Repos\Games\MineCon2016\Kits\src\main\java\com\nelsontron\sqlite" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.nelsontron.warps.util" />
+      <recent name="com.nelsontron.sqlite.bukkit" />
+      <recent name="com.nelsontron.warps" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.nelsontron.kits.entity" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Maven.Kits build">
+    <configuration name="Core build" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/Core" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Kits build" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/Kits" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Warps build" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/Warps" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f91ead6a-72d1-49f0-8f5a-93305846c611" name="Default Changelist" comment="" />
+      <created>1584298965185</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584298965185</updated>
+      <workItem from="1584298968013" duration="5553000" />
+      <workItem from="1584304820883" duration="33115000" />
+      <workItem from="1584393057425" duration="1784000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="872" y="359" key="#Project_Structure" timestamp="1584394233803">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="872" y="359" key="#Project_Structure/-1920.90.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584394233803" />
+    <state x="697" y="268" key="#com.intellij.ide.util.MemberChooser" timestamp="1584382115019">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="697" y="268" key="#com.intellij.ide.util.MemberChooser/-1920.90.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584382115019" />
+    <state x="1110" y="411" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1584393792968">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1110" y="411" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/-1920.90.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584393792968" />
+    <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584380402622">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.90.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584380402622" />
+    <state x="622" y="313" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1584380629966">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="622" y="313" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/-1920.90.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584380629966" />
+    <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1584393842817">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1060" y="455" key="FileChooserDialogImpl/-1920.90.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584393842817" />
+    <state x="372" y="133" key="SettingsEditor" timestamp="1584394195433">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="372" y="133" key="SettingsEditor/-1920.90.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584394195433" />
+    <state x="976" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1584393055815">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="976" y="524" key="com.intellij.ide.util.TipDialog/-1920.90.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584393055815" />
+    <state x="274" y="253" key="new project wizard" timestamp="1584394151021">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="274" y="253" key="new project wizard/-1920.90.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584394151021" />
+    <state x="555" y="277" width="672" height="678" key="search.everywhere.popup" timestamp="1584303301878">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="555" y="277" width="672" height="678" key="search.everywhere.popup/-1920.90.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584303301878" />
+  </component>
+</project>

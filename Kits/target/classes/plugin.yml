@@ -1,0 +1,10 @@
+name: Kits
+version: 0.0.2
+main: com.nelsontron.kits.Main
+depend: [ Core ]
+api-version: 1.13
+authors: [nelsontron]
+description: A customizable kit plugin
+website: nelsontron.com
+commands:
+  kit:

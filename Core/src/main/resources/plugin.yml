@@ -1,0 +1,13 @@
+name: Core
+version: ${project.version}
+main: com.nelsontron.core.Main
+loadbefore:
+  - Kits
+  - Warps
+softdepend:
+  - Kits
+  - Warps
+api-version: 1.13
+authors: [nelsontron]
+description: Core plugin for nelsontron projects
+website: nelsontron.com

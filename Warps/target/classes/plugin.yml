@@ -1,0 +1,13 @@
+name: Warps
+version: 0.0.1
+main: com.nelsontron.warps.Main
+depend: [ Core ]
+api-version: 1.13
+authors: [nelsontron]
+description: a simplistic warp plugin
+website: nelsontron.com
+commands:
+  warp:
+    aliases:
+      - w
+    permission: warps.use
