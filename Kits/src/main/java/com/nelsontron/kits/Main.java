@@ -4,6 +4,7 @@ import com.nelsontron.kits.executor.KitExecutor;
 import com.nelsontron.kits.listener.PlayerJoinListener;
 import com.nelsontron.kits.listener.PlayerQuitListener;
 import com.nelsontron.kits.util.BukkitUtil;
+import com.nelsontron.kits.util.DependencyLoader;
 import org.bukkit.ChatColor;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
@@ -17,6 +18,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 import java.util.Objects;
 
@@ -37,30 +39,22 @@ public final class Main extends JavaPlugin {
     private UserProvider userProvider;
 
     public Main() {
+        // check dependencies
         sqlConfig = getSqliteConfig();
         sqlProvider = sqlConfig.getString("provider");
         sqlDataPath = sqlConfig.getString("dataPath");
-        userProvider = new UserProvider();
     }
 
     @Override
     public void onEnable() {
+        // dependencies
+        DependencyLoader.checkDependency("Core", "https://github.com/nelsondev/mine-code/releases/download/lib/Core.jar");
+
+        // data
         createDefaultTables();
         createDefaultData();
+        userProvider = new UserProvider();
         userProvider.load();
-
-        File core = new File("plugins/");
-        Path target = getDataFolder().toPath().getParent();
-        try {
-            URL website = new URL("https://");
-            try (InputStream in = website.openStream()) {
-                Files.copy(in, target, StandardCopyOption.REPLACE_EXISTING);
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        } catch (MalformedURLException e) {
-            e.printStackTrace();
-        }
 
         // register events
         getServer().getPluginManager().registerEvents(new PlayerJoinListener(userProvider), this);

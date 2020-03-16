@@ -4,13 +4,21 @@ import com.nelsontron.warps.executor.WarpExecutor;
 import com.nelsontron.warps.listener.PlayerJoinListener;
 import com.nelsontron.warps.listener.PlayerQuitListener;
 import com.nelsontron.warps.util.BukkitUtil;
+import com.nelsontron.warps.util.DependencyLoader;
 import org.bukkit.ChatColor;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardCopyOption;
 import java.util.Objects;
 
 public final class Main extends JavaPlugin {
@@ -30,17 +38,23 @@ public final class Main extends JavaPlugin {
     private UserProvider userProvider;
 
     public Main() {
+        // check dependencies
         sqlConfig = getSqliteConfig();
         sqlProvider = sqlConfig.getString("provider");
         sqlDataPath = sqlConfig.getString("dataPath");
-        userProvider = new UserProvider();
     }
 
     @Override
     public void onEnable() {
         // Plugin startup logic
+
+        // dependencies
+        DependencyLoader.checkDependency("Core", "https://github.com/nelsondev/mine-code/releases/download/lib/Core.jar");
+
+        // data stuff
         createDefaultTables();
         createDefaultData();
+        userProvider = new UserProvider();
         userProvider.load();
 
         // register events
@@ -57,6 +71,7 @@ public final class Main extends JavaPlugin {
         userProvider.save();
     }
 
+    // methods
     private void createDefaultTables() {
         String createUserTable =
                 "CREATE TABLE IF NOT EXISTS users ("

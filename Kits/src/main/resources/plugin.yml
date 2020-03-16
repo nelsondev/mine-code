@@ -1,7 +1,7 @@
 name: Kits
 version: ${project.version}
 main: com.nelsontron.kits.Main
-depend: [ Core ]
+softdepend: [Core]
 api-version: 1.13
 authors: [nelsontron]
 description: A customizable kit plugin

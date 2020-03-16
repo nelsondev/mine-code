@@ -8,7 +8,18 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f91ead6a-72d1-49f0-8f5a-93305846c611" name="Default Changelist" comment="" />
+    <list default="true" id="f91ead6a-72d1-49f0-8f5a-93305846c611" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Kits/src/main/java/com/nelsontron/kits/util/DependencyLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Warps/src/main/java/com/nelsontron/warps/util/DependencyLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kits/src/main/java/com/nelsontron/kits/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Kits/src/main/java/com/nelsontron/kits/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kits/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Kits/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kits/target/classes/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Kits/target/classes/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Warps/src/main/java/com/nelsontron/warps/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Warps/src/main/java/com/nelsontron/warps/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Warps/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Warps/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Warps/target/classes/META-INF/Warps.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Warps/target/classes/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Warps/target/classes/plugin.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,26 +55,27 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bin/artifacts/Core.jar!/" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Repos\Games\MineCon2016\SqliteFramework\src\main\java\com\nelsontron\sqlite" />
-      <recent name="D:\Repos\Games\MineCon2016\Warps\src\main\resources" />
-      <recent name="D:\Repos\Games\MineCon2016\Warps\src\main\java\com\nelsontron\warps" />
-      <recent name="D:\Repos\Games\MineCon2016\Kits\src\main\java\com\nelsontron\sqlite" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.nelsontron.kits.entity" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.nelsontron.warps.util" />
       <recent name="com.nelsontron.sqlite.bukkit" />
       <recent name="com.nelsontron.warps" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.nelsontron.kits.entity" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Repos\Games\mine-code\lib" />
+      <recent name="D:\Repos\Games\MineCon2016\SqliteFramework\src\main\java\com\nelsontron\sqlite" />
+      <recent name="D:\Repos\Games\MineCon2016\Warps\src\main\resources" />
+      <recent name="D:\Repos\Games\MineCon2016\Warps\src\main\java\com\nelsontron\warps" />
+      <recent name="D:\Repos\Games\MineCon2016\Kits\src\main\java\com\nelsontron\sqlite" />
     </key>
   </component>
   <component name="RunManager" selected="Maven.Kits build">
@@ -159,6 +171,7 @@
       <workItem from="1584298968013" duration="5553000" />
       <workItem from="1584304820883" duration="33115000" />
       <workItem from="1584393057425" duration="1784000" />
+      <workItem from="1584395057407" duration="5799000" />
     </task>
     <servers />
   </component>
@@ -166,10 +179,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="872" y="359" key="#Project_Structure" timestamp="1584394233803">
+    <state x="872" y="359" key="#Project_Structure" timestamp="1584395402018">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="359" key="#Project_Structure/-1920.90.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584394233803" />
+    <state x="872" y="359" key="#Project_Structure/-1920.90.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584395402018" />
     <state x="697" y="268" key="#com.intellij.ide.util.MemberChooser" timestamp="1584382115019">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -186,10 +199,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="622" y="313" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/-1920.90.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584380629966" />
-    <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1584393842817">
+    <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1584395382701">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1060" y="455" key="FileChooserDialogImpl/-1920.90.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584393842817" />
+    <state x="1060" y="455" key="FileChooserDialogImpl/-1920.90.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584395382701" />
     <state x="372" y="133" key="SettingsEditor" timestamp="1584395096972">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
