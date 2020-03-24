@@ -7,10 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Warps" />
-        <module name="Core" />
+        <module name="Action" />
         <module name="Kits" />
         <module name="SqliteFramework" />
+        <module name="Core" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="TreeGuy" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

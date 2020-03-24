@@ -1,0 +1,10 @@
+name: Action
+version: ${project.version}
+main: com.nelsontron.action.Main
+api-version: 1.13
+softdepend: [Core]
+authors: [nelsontron]
+description: assign command actions to blocks.
+website: nelsontron.com
+commands:
+  action:

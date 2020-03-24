@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="Kits:jar">
-    <output-path>$PROJECT_DIR$/bin/artifacts</output-path>
+    <output-path>$PROJECT_DIR$/bin</output-path>
     <root id="archive" name="Kits.jar">
       <element id="module-output" name="Kits" />
     </root>

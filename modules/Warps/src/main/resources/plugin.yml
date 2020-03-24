@@ -1,0 +1,83 @@
+name: Warps
+version: ${project.version}
+main: com.nelsontron.warps.Main
+softdepend: [Core]
+api-version: 1.13
+authors: [nelsontron]
+description: a simplistic warp plugin
+website: nelsontron.com
+commands:
+  warp:
+    description: Type /warp help for more information.
+    permission-message: No permission for this command.
+    aliases: [w]
+permissions:
+  warp.help:
+    description: warp command help
+    default: true
+  warp.list:
+    description: warp list sub command
+    default: false
+  warp.add:
+    description: warp add sub command
+    default: false
+  warp.remove:
+    description: warp remove sub command
+    default: false
+  warp.name:
+    description: warp rename sub command
+    default: false
+  warp.use:
+    description: warp use sub command
+    default: false
+  warp.personal:
+    description: all default personal warp sub commands
+    default: false
+    children:
+      warp.help: true
+      warp.list: true
+      warp.add: true
+      warp.remove: true
+      warp.name: true
+      warp.use: true
+  warp.global.list:
+    description:  global warp list sub command
+    default: false
+  warp.global.add:
+    description: global warp add sub command
+    default: false
+  warp.global.remove:
+    description:  global warp remove sub command
+    default: false
+  warp.global.name:
+    description:  global warp name sub command
+    default: false
+  warp.global.use:
+    description:  global warp use sub command
+    default: false
+  warp.global:
+    description: default global warp sub commands
+    default: false
+    children:
+      warp.help: true
+      warp.global.list: true
+      warp.global.add: true
+      warp.global.remove: true
+      warp.global.name: true
+      warp.global.use: true
+  warp.personal.*:
+    description: alias of warp.personal
+    default: false
+    children:
+      warp.personal: true
+  warp.global.*:
+    description: alias of warp.global
+    default: false
+    children:
+      warp.global: true
+  warp.*:
+    description: all warp sub commands
+    children:
+      warp.help: true
+      warp.personal: true
+      warp.global: true

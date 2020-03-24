@@ -1,0 +1,10 @@
+name: Core
+version: 0.0.3
+main: com.nelsontron.core.Main
+loadbefore:
+  - Kits
+  - Warps
+api-version: 1.13
+authors: [nelsontron]
+description: Core plugin for nelsontron projects
+website: nelsontron.com

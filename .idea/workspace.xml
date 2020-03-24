@@ -2,23 +2,89 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Core:jar" />
-      <artifact name="Kits:jar" />
       <artifact name="Warps:jar" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f91ead6a-72d1-49f0-8f5a-93305846c611" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Kits/src/main/java/com/nelsontron/kits/util/DependencyLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Warps/src/main/java/com/nelsontron/warps/util/DependencyLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__Arquillian_JUnit_Release.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/SqliteFramework/src/test/java/com/nelsontron/sqlite/SqliteUtilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/SqliteFramework/src/test/java/com/nelsontron/sqlite/obj/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/SqliteFramework/src/test/java/com/nelsontron/sqlite/obj/TestReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/Action/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/Action/src/main/java/com/nelsontron/action/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/Action/src/main/java/com/nelsontron/action/entity/Action.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/Action/src/main/java/com/nelsontron/action/executor/ActionExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/Action/src/main/java/com/nelsontron/action/provider/ActionProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/Action/src/main/java/com/nelsontron/action/util/DependencyLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/Action/src/main/resources/plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/Core/src/main/java/com/nelsontron/core/data/IStandardProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/Core/src/main/java/com/nelsontron/core/data/StandardProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/Core/src/main/java/com/nelsontron/core/etc/Scheme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/Core/src/main/java/com/nelsontron/core/util/BukkitUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/Core/src/main/java/com/nelsontron/core/util/ItemUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/Core/src/main/java/com/nelsontron/core/util/LocationUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/Core/src/main/java/com/nelsontron/core/util/TableUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/Warps/Warps.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/Warps/src/main/java/com/nelsontron/warps/entity/SqliteContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/Warps/src/main/java/com/nelsontron/warps/provider/GlobalProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/Warps/src/main/java/com/nelsontron/warps/provider/UserProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/Warps/src/main/resources/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Core_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Core_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Kits_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Kits_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Warps_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Warps_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/nelso.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/nelso.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kits/src/main/java/com/nelsontron/kits/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Kits/src/main/java/com/nelsontron/kits/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kits/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Kits/src/main/resources/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kits/target/classes/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Kits/target/classes/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Warps/src/main/java/com/nelsontron/warps/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Warps/src/main/java/com/nelsontron/warps/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Warps/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Warps/src/main/resources/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Warps/target/classes/META-INF/Warps.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Warps/target/classes/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Warps/target/classes/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Action/Action.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/src/main/java/com/nelsontron/core/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Core/src/main/java/com/nelsontron/core/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Core/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/target/classes/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Core/target/classes/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kits/Kits.iml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Core/Core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kits/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Kits/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kits/src/main/java/com/nelsontron/kits/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Kits/src/main/java/com/nelsontron/kits/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kits/src/main/java/com/nelsontron/kits/SqliteContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Kits/src/main/java/com/nelsontron/kits/SqliteContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kits/src/main/java/com/nelsontron/kits/UserProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Kits/src/main/java/com/nelsontron/kits/UserProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kits/src/main/java/com/nelsontron/kits/entity/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Kits/src/main/java/com/nelsontron/kits/entity/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kits/src/main/java/com/nelsontron/kits/entity/Kit.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Kits/src/main/java/com/nelsontron/kits/entity/Kit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kits/src/main/java/com/nelsontron/kits/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Kits/src/main/java/com/nelsontron/kits/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kits/src/main/java/com/nelsontron/kits/executor/KitExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Kits/src/main/java/com/nelsontron/kits/executor/KitExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kits/src/main/java/com/nelsontron/kits/listener/PlayerJoinListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Kits/src/main/java/com/nelsontron/kits/listener/PlayerJoinListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kits/src/main/java/com/nelsontron/kits/listener/PlayerQuitListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Kits/src/main/java/com/nelsontron/kits/listener/PlayerQuitListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kits/src/main/java/com/nelsontron/kits/util/BukkitUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Kits/src/main/java/com/nelsontron/kits/util/BukkitUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kits/src/main/java/com/nelsontron/kits/util/DependencyLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Kits/src/main/java/com/nelsontron/kits/util/DependencyLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kits/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Kits/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kits/src/main/resources/sqlite.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Kits/src/main/resources/sqlite.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kits/target/classes/META-INF/Kits.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Kits/target/classes/META-INF/Kits.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kits/target/classes/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Kits/target/classes/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kits/target/classes/sqlite.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Kits/target/classes/sqlite.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqliteFramework/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lib/SqliteFramework/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqliteFramework/src/main/java/com/nelsontron/sqlite/SqliteDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/SqliteFramework/src/main/java/com/nelsontron/sqlite/SqliteDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqliteFramework/src/main/java/com/nelsontron/sqlite/SqliteEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/SqliteFramework/src/main/java/com/nelsontron/sqlite/SqliteEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqliteFramework/src/main/java/com/nelsontron/sqlite/SqliteSerializable.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/SqliteFramework/src/main/java/com/nelsontron/sqlite/SqliteSerializable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqliteFramework/src/main/java/com/nelsontron/sqlite/SqliteUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/SqliteFramework/src/main/java/com/nelsontron/sqlite/SqliteUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqliteFramework/src/main/java/com/nelsontron/sqlite/util/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/SqliteFramework/src/main/java/com/nelsontron/sqlite/util/StringUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Warps/Warps.iml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Kits/Kits.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Warps/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Warps/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Warps/src/main/java/com/nelsontron/warps/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Warps/src/main/java/com/nelsontron/warps/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Warps/src/main/java/com/nelsontron/warps/SqliteContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Action/src/main/java/com/nelsontron/action/SqliteContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Warps/src/main/java/com/nelsontron/warps/UserProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Warps/src/main/java/com/nelsontron/warps/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Warps/src/main/java/com/nelsontron/warps/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Warps/src/main/java/com/nelsontron/warps/entity/Warp.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Warps/src/main/java/com/nelsontron/warps/entity/Warp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Warps/src/main/java/com/nelsontron/warps/executor/WarpExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Warps/src/main/java/com/nelsontron/warps/executor/WarpExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Warps/src/main/java/com/nelsontron/warps/listener/PlayerJoinListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Warps/src/main/java/com/nelsontron/warps/listener/PlayerJoinListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Warps/src/main/java/com/nelsontron/warps/listener/PlayerQuitListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Warps/src/main/java/com/nelsontron/warps/listener/PlayerQuitListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Warps/src/main/java/com/nelsontron/warps/util/BukkitUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Action/src/main/java/com/nelsontron/action/util/BukkitUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Warps/src/main/java/com/nelsontron/warps/util/DependencyLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Warps/src/main/java/com/nelsontron/warps/util/DependencyLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Warps/src/main/java/com/nelsontron/warps/util/LocationUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Action/src/main/java/com/nelsontron/action/util/LocationUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Warps/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Warps/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Warps/src/main/resources/sqlite.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Warps/src/main/resources/sqlite.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Warps/target/classes/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Warps/target/classes/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Warps/target/classes/sqlite.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Warps/target/classes/sqlite.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +94,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="Arquillian JUnit Test Class" />
       </list>
     </option>
   </component>
@@ -45,40 +114,179 @@
     </option>
   </component>
   <component name="ProjectId" id="1ZB44rKJQLdEt8I4VLgbsCRZiSX" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bin/artifacts/Core.jar!/" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.nelsontron.kits.entity" />
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.nelsontron.warps.entity" />
+      <recent name="com.nelsontron.warps.provider" />
+      <recent name="com.nelsontron.sqlite" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.nelsontron.warps.util" />
-      <recent name="com.nelsontron.sqlite.bukkit" />
-      <recent name="com.nelsontron.warps" />
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Repos\Games\mine-code\modules" />
+      <recent name="D:\Repos\Games\mine-code\bin" />
+      <recent name="D:\Repos\Games\mine-code\lib" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Repos\Games\mine-code\modules\Action\src\main\java\com\nelsontron\action" />
       <recent name="D:\Repos\Games\mine-code\lib" />
       <recent name="D:\Repos\Games\MineCon2016\SqliteFramework\src\main\java\com\nelsontron\sqlite" />
       <recent name="D:\Repos\Games\MineCon2016\Warps\src\main\resources" />
       <recent name="D:\Repos\Games\MineCon2016\Warps\src\main\java\com\nelsontron\warps" />
-      <recent name="D:\Repos\Games\MineCon2016\Kits\src\main\java\com\nelsontron\sqlite" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.nelsontron.core.util" />
+      <recent name="com.nelsontron.core.etc" />
+      <recent name="com.nelsontron.action.provider" />
+      <recent name="com.nelsontron.kits.util" />
+      <recent name="com.nelsontron.warps" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.nelsontron.kits.entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.Kits build">
+  <component name="RunManager" selected="Arquillian JUnit.SqliteContextTest.create">
+    <configuration name="GlobalProviderTest.save" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
+      <module name="Warps" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nelsontron.warps.provider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="PACKAGE_NAME" value="com.nelsontron.warps.provider" />
+      <option name="MAIN_CLASS_NAME" value="com.nelsontron.warps.provider.GlobalProviderTest" />
+      <option name="METHOD_NAME" value="save" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SqliteContextTest.create" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
+      <module name="Warps" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nelsontron.warps.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="PACKAGE_NAME" value="com.nelsontron.warps.entity" />
+      <option name="MAIN_CLASS_NAME" value="com.nelsontron.warps.entity.SqliteContextTest" />
+      <option name="METHOD_NAME" value="create" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SqliteUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SqliteFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nelsontron.sqlite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nelsontron.sqlite" />
+      <option name="MAIN_CLASS_NAME" value="com.nelsontron.sqlite.SqliteUtilTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SqliteUtilTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SqliteFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nelsontron.sqlite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nelsontron.sqlite" />
+      <option name="MAIN_CLASS_NAME" value="com.nelsontron.sqlite.SqliteUtilTest" />
+      <option name="METHOD_NAME" value="delete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SqliteUtilTest.getUnAccessible" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SqliteFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nelsontron.sqlite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nelsontron.sqlite" />
+      <option name="MAIN_CLASS_NAME" value="com.nelsontron.sqlite.SqliteUtilTest" />
+      <option name="METHOD_NAME" value="getUnAccessible" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Action build" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/Action" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <configuration name="Core build" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -131,6 +339,32 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="TreeGuy build" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/modules/TreeGuy" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <configuration name="Warps build" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -157,6 +391,15 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Arquillian JUnit.SqliteContextTest.create" />
+        <item itemvalue="Arquillian JUnit.GlobalProviderTest.save" />
+        <item itemvalue="JUnit.SqliteUtilTest" />
+        <item itemvalue="JUnit.SqliteUtilTest.getUnAccessible" />
+        <item itemvalue="JUnit.SqliteUtilTest.delete" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -171,53 +414,122 @@
       <workItem from="1584298968013" duration="5553000" />
       <workItem from="1584304820883" duration="33115000" />
       <workItem from="1584393057425" duration="1784000" />
-      <workItem from="1584395057407" duration="5799000" />
+      <workItem from="1584395057407" duration="5845000" />
+      <workItem from="1584406623605" duration="3789000" />
+      <workItem from="1584454036182" duration="2714000" />
+      <workItem from="1584456766300" duration="20737000" />
+      <workItem from="1584501224308" duration="12649000" />
+      <workItem from="1584540406670" duration="17281000" />
+      <workItem from="1584593428000" duration="969000" />
+      <workItem from="1584595858685" duration="960000" />
+      <workItem from="1584597906271" duration="609000" />
+      <workItem from="1584626914574" duration="24449000" />
+      <workItem from="1584659942869" duration="1395000" />
+      <workItem from="1584718589994" duration="1086000" />
+      <workItem from="1584848713676" duration="600000" />
+      <workItem from="1584933655380" duration="85000" />
+      <workItem from="1584983585291" duration="3332000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="872" y="359" key="#Project_Structure" timestamp="1584395402018">
+    <state x="872" y="358" key="#Arquillian_Containers" timestamp="1584658829078">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="359" key="#Project_Structure/-1920.90.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584395402018" />
-    <state x="697" y="268" key="#com.intellij.ide.util.MemberChooser" timestamp="1584382115019">
+    <state x="872" y="358" key="#Arquillian_Containers/-1920.90.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584658829078" />
+    <state x="877" y="356" key="#GlobalProviderTest.save" timestamp="1584658746814">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="697" y="268" key="#com.intellij.ide.util.MemberChooser/-1920.90.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584382115019" />
+    <state x="877" y="356" key="#GlobalProviderTest.save/-1920.90.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584658746814" />
+    <state x="872" y="359" key="#Project_Structure" timestamp="1584660686798">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="872" y="359" key="#Project_Structure/-1920.90.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584660686798" />
+    <state x="877" y="356" key="#SqliteContextTest.create" timestamp="1584658830348">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="877" y="356" key="#SqliteContextTest.create/-1920.90.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584658830348" />
+    <state x="714" y="300" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584460103857">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="714" y="300" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.90.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584460103857" />
+    <state x="697" y="268" key="#com.intellij.ide.util.MemberChooser" timestamp="1584657297340">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="697" y="268" key="#com.intellij.ide.util.MemberChooser/-1920.90.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584657297340" />
     <state x="1110" y="411" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1584393792968">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1110" y="411" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/-1920.90.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584393792968" />
-    <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584380402622">
+    <state x="1063" y="560" width="433" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1584541030999">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.90.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584380402622" />
+    <state x="1063" y="560" width="433" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/-1920.90.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584541030999" />
+    <state x="824" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584502334615">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="824" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1920.90.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584502334615" />
+    <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584548961146">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.90.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584548961146" />
     <state x="622" y="313" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1584380629966">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="622" y="313" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/-1920.90.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584380629966" />
-    <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1584395382701">
+    <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1584933724009">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1060" y="455" key="FileChooserDialogImpl/-1920.90.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584395382701" />
-    <state x="372" y="133" key="SettingsEditor" timestamp="1584395096972">
+    <state x="1060" y="455" key="FileChooserDialogImpl/-1920.90.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584933724009" />
+    <state width="2517" height="310" key="GridCell.Tab.0.bottom" timestamp="1584659441471">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="372" y="133" key="SettingsEditor/-1920.90.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584395096972" />
-    <state x="976" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1584393055815">
+    <state width="2517" height="310" key="GridCell.Tab.0.bottom/-1920.90.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584659441471" />
+    <state width="2517" height="310" key="GridCell.Tab.0.center" timestamp="1584659441471">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="976" y="524" key="com.intellij.ide.util.TipDialog/-1920.90.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584393055815" />
-    <state x="274" y="253" key="new project wizard" timestamp="1584394151021">
+    <state width="2517" height="310" key="GridCell.Tab.0.center/-1920.90.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584659441471" />
+    <state width="2517" height="310" key="GridCell.Tab.0.left" timestamp="1584659441471">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="274" y="253" key="new project wizard/-1920.90.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584394151021" />
-    <state x="555" y="277" width="672" height="678" key="search.everywhere.popup" timestamp="1584303301878">
+    <state width="2517" height="310" key="GridCell.Tab.0.left/-1920.90.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584659441471" />
+    <state width="2517" height="310" key="GridCell.Tab.0.right" timestamp="1584659441471">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="555" y="277" width="672" height="678" key="search.everywhere.popup/-1920.90.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584303301878" />
+    <state width="2517" height="310" key="GridCell.Tab.0.right/-1920.90.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584659441471" />
+    <state x="372" y="133" key="SettingsEditor" timestamp="1584718635418">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="372" y="133" key="SettingsEditor/-1920.90.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584718635418" />
+    <state x="976" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1584933655226">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="976" y="524" key="com.intellij.ide.util.TipDialog/-1920.90.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584933655226" />
+    <state x="1089" y="617" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584648807852">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1089" y="617" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.90.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584648807852" />
+    <state x="1044" y="403" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584658799462">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1044" y="403" key="com.intellij.testIntegration.createTest.CreateTestDialog/-1920.90.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584658799462" />
+    <state x="1010" y="456" key="extract.method.dialog" timestamp="1584546108366">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1010" y="456" key="extract.method.dialog/-1920.90.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584546108366" />
+    <state x="274" y="253" key="new project wizard" timestamp="1584991636217">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="274" y="253" key="new project wizard/-1920.90.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584991636217" />
+    <state x="555" y="277" width="672" height="678" key="search.everywhere.popup" timestamp="1584635477820">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="555" y="277" width="672" height="678" key="search.everywhere.popup/-1920.90.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1584635477820" />
   </component>
 </project>

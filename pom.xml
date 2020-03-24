@@ -9,7 +9,11 @@
     <packaging>pom</packaging>
     <version>0.0.1</version>
     <modules>
-        <module>SqliteFramework</module>
+        <module>lib/SqliteFramework</module>
+        <module>modules/Core</module>
+        <module>modules/Kits</module>
+        <module>modules/Warps</module>
+        <module>modules/Action</module>
     </modules>
 
 
