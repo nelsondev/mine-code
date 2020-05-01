@@ -6,16 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Warps" />
-        <module name="Kits" />
-        <module name="Pair" />
-        <module name="Action" />
-        <module name="Core" />
-        <module name="SqliteFramework" />
+        <module name="Scaffold" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="TreeGuy" target="1.8" />
+      <module name="Scaffold" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

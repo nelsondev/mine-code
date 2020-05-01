@@ -20,6 +20,7 @@ import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
+import java.util.Random;
 
 public class BukkitUtil {
     public static void registerCommands(JavaPlugin plugin, CommandExecutor executor, String ...commands) {
@@ -39,10 +40,10 @@ public class BukkitUtil {
     public static Player getPlayer(String name) {
         Player result = null;
         for (Player player : Bukkit.getOnlinePlayers()) {
-            if (!player.getName().equals(name)) continue;
-
-            result = player;
-            break;
+            if (player.getDisplayName().equalsIgnoreCase(name)) {
+                result = player;
+                break;
+            }
         }
         return result;
     }
@@ -62,5 +63,25 @@ public class BukkitUtil {
         InputStreamReader reader;
         reader = new InputStreamReader(Objects.requireNonNull(stream));
         return YamlConfiguration.loadConfiguration(reader);
+    }
+
+    public static int randInt(int min, int max) {
+
+        // NOTE: This will (intentionally) not run as written so that folks
+        // copy-pasting have to think about how to initialize their
+        // Random instance.  Initialization of the Random instance is outside
+        // the main scope of the question, but some decent options are to have
+        // a field that is initialized once and then re-used as needed or to
+        // use ThreadLocalRandom (if using at least Java 1.7).
+        //
+        // In particular, do NOT do 'Random rand = new Random()' here or you
+        // will get not very good / not very random results.
+        Random rand = new Random();
+
+        // nextInt is normally exclusive of the top value,
+        // so add 1 to make it inclusive
+        int randomNum = rand.nextInt((max - min) + 1) + min;
+
+        return randomNum;
     }
 }

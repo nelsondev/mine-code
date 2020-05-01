@@ -14,6 +14,7 @@
         <module>modules/Kits</module>
         <module>modules/Warps</module>
         <module>modules/Action</module>
+        <module>modules/Pair</module>
     </modules>
 
 

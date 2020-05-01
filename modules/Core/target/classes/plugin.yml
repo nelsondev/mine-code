@@ -4,6 +4,7 @@ main: com.nelsontron.core.Main
 loadbefore:
   - Kits
   - Warps
+  - Pair
 api-version: 1.13
 authors: [nelsontron]
 description: Core plugin for nelsontron projects

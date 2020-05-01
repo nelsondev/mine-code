@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Scaffold:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Scaffold_jar</output-path>
+    <root id="archive" name="Scaffold.jar">
+      <element id="module-output" name="Scaffold" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../bin/Core.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

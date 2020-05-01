@@ -1,0 +1,12 @@
+name: Pair
+version: ${project.version}
+main: com.nelsontron.pair.Main
+api-version: 1.13
+depend: [Core]
+authors: [nelsontron]
+description: A team mode where two players share absolutely everything.
+website: nelsontron.com
+
+commands:
+  pair:
+    description: type /pair help for more information

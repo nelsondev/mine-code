@@ -1,0 +1,7 @@
+name: Scaffold
+version: ${project.version}
+main: com.nelsontron.scaffold.Scaffold
+api-version: 1.13
+authors: [nelsontron]
+description: A scaffold plugin
+website: https://nelsontron.com

@@ -1,0 +1,3 @@
+provider: "jdbc:sqlite:"
+dataPath: "./plugins/${project.name}/data/"
+database: "game.db"

@@ -1,0 +1,12 @@
+size-per-pair: 100
+world-name: pair-world
+lobby-world-name: world
+chest-multiplier: 4
+colors:
+  primary: white
+  secondary: white
+  text: white
+  muted: dark_gray
+  info: white
+  warn: yellow
+  error: red
